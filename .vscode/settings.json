@@ -1,0 +1,24 @@
+{
+  "editor.tabSize": 2,
+  // file spaces 2
+  "editor.indentSize": 2,
+  // 2 espaços nos arquivos
+  "editor.insertSpaces": true,
+  // Formatação automática ao salvar
+  "editor.formatOnSave": true,
+  // Formatação automática ao colar
+  "editor.formatOnPaste": true,
+  // Formatação automática ao digitar
+  "editor.formatOnType": true,
+  // Formatação automática ao abrir o arquivo
+  "[typescript]": {
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+  },
+  "files.trimTrailingWhitespace": true,
+}
